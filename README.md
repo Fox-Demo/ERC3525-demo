@@ -1,13 +1,41 @@
-# Sample Hardhat Project
+# ERC3525-demo
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## How to start?
 
-Try running some of the following tasks:
+1.
 
-```shell
-npx hardhat help
+```bash
+npm install
+```
+
+2.
+
+```bash
+npx hardhat compile
+```
+
+3.
+
+```bash
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+## If you want start with Foundry
+
+1.
+
+```bash
+forge install
+```
+
+2.
+
+```bash
+forge build
+```
+
+3.
+
+```bash
+forge test
 ```
