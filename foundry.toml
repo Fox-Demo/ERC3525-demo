@@ -1,12 +1,11 @@
 [profile.default]
 src = 'src'
 out = 'artifacts'
-libs = ['node_modules']
+libs = ["node_modules", "lib"]
 remappings = [
     '@openzeppelin/=node_modules/@openzeppelin/',
     '@solvprotocol/=node_modules/@solvprotocol/',
     'eth-gas-reporter/=node_modules/eth-gas-reporter/',
-    'forge-std/=node_modules/forge-std/',
     'hardhat/=node_modules/hardhat/',
 ]
 

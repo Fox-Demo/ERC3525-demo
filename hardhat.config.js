@@ -1,6 +1,4 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-foundry");
-require("hardhat-tracer");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
